@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
-  "name": "cde9a4a64ca2407023e6",
+  "name": "23fd586049e8480593ae",
   "position": {
-    "x": 575.80547112462011,
-    "y": 52.52279635258359,
-    "z": 1,
+    "x": 689.60486322188456,
+    "y": 284.98480243161094,
+    "z": 2,
     "height": 149.78723404255319,
     "width": 300.54711246200611,
-    "tabOrder": 1
+    "tabOrder": 2
   },
   "visual": {
     "visualType": "card",
@@ -28,11 +28,11 @@
                       "Property": "Coluna 2"
                     }
                   },
-                  "Function": 0
+                  "Function": 1
                 }
               },
               "queryRef": "Sum(Tabela.Coluna 2)",
-              "nativeQueryRef": "Soma de Coluna 2"
+              "nativeQueryRef": "Média de Coluna 2"
             }
           ]
         }
@@ -52,7 +52,7 @@
                     "Property": "Coluna 2"
                   }
                 },
-                "Function": 0
+                "Function": 1
               }
             },
             "direction": "Descending"
@@ -66,7 +66,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "63290531110d8bd90eab",
+        "name": "1cdabc367617903c7b26",
         "field": {
           "Aggregation": {
             "Expression": {
@@ -79,7 +79,7 @@
                 "Property": "Coluna 2"
               }
             },
-            "Function": 0
+            "Function": 1
           }
         },
         "type": "Advanced"
